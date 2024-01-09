@@ -1,7 +1,23 @@
-- name: Adobe Photoshop
-  percentage: 95
-  color: info
+- name: React
+  color: primary
 
-- name: Adobe Illustrator
-  percentage: 90
-  color: success
+- name: React Native
+  color: primary
+
+- name: Node.js
+  color: secondary
+
+- name: Express
+  color: secondary
+
+- name: Docker
+  color: secondary
+
+- name: MongoDB
+  color: danger
+
+- name: Unix
+  color: danger
+
+- name: Agile
+  color: danger

@@ -1,26 +1,30 @@
 - org: Alteryx
+  image: https://community.alteryx.com/t5/image/serverpage/image-id/259688iF6C1C4BD0BC11851?v=v2
   role: Software Engineer
   from: June 2022
   to: August 2023
-  description: Worked on the Reactor team to facilitate full-stack development 
-              for Alteryx’s Auto ML product. I spearheaded a seamless Node upgrade, 
-              updating 150+ tests and 20+ dependencies to significantly improve 
-              application speed. Utilized third-party SDKs to enable real user 
-              monitoring through Datadog session replays and feature flag management 
-              through Unleash for cross-functional teams in a 100+ product engineering organization. 
+  description: [
+    'Developed a proof of concept for a Content Management System for Alteryx AutoML’s education mode using
+TypeScript, simplifying content updating for 50+ technical writers.', 
+    'Facilitated a seamless Node upgrade process, overseeing changes to 150+ tests and updating 20+ dependencies,
+significantly increasing application speed.', 
+    'Spearheaded the successful integration of Unleash into an existing React application, streamlining feature flag
+management across cross-functional teams within a 100+ member product engineering organization.'
+    ]
 
 - org: Teaching + Learning Commons @ UCSD
+  image: https://pbs.twimg.com/profile_images/963898615298064384/tDkwg53N_400x400.jpg
   role: Supplemental Instruction Leader
-  from: 2018
-  to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+  from: March 2021
+  to: June 2022
+  description: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit',
                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.]
 
 - org: Society and Machine Learning Lab (SMoL)
   role: Undergraduate Student Researcher
   from: 2018
   to: 2019
-  description: This is a description
+  description: [This is a description, This is a second item]

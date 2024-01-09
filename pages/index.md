@@ -5,12 +5,19 @@ permalink: /
 weight: 3
 ---
 
-# **About Me**
+<img src="../assets/img/headshot.jpg" width="25%" class="float-right" style="border-radius: 50%; margin-right: 10px">
+# **Hello!**
 
-Hi, I am **{{ site.author.name }}** :wave:,<br>
-I'm a full stack engineer. I graduated UC San Diego in December 2022 with a B.S. in Mathematics-Computer Science and minors in Cognitive Science & Music. 
+<!-- ![Dhruv Sood](../assets/img/headshot.jpg){:width="100"} -->
+
+I am **{{ site.author.name }}** :wave:,<br>
+I'm a full stack engineer with a passion for music and education. I graduated UC San Diego in December 2022 with a B.S. in Mathematics-Computer Science and minors in Cognitive Science & Music. 
+
+One of my favorite aspects of software development is the opportunity to collaborate with people from a wide range of disciplines. I love learning new things and connecting with people across a range of industries, so feel free to reach out if you’d like to get in touch!
+Email: dhruvsood27@gmail.com
+
 
 <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+{% include about/skills.html title="Programming Languages" source=site.data.programming-skills %}
+{% include about/skills.html title="Technologies" source=site.data.other-skills %}
 </div>

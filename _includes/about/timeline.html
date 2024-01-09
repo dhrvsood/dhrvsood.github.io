@@ -4,11 +4,15 @@
       <div class="timeline-item">
         <div class="content">
         <!-- <div class="card"> -->
-          <!-- <img class="card-img-top" src="https://community.alteryx.com/t5/image/serverpage/image-id/259688iF6C1C4BD0BC11851?v=v2" class="float-right" /> -->
+          <img src="{{item.image}}" class="float-right" width="75px"/>
           <h4><b>{{ item.org }}</b></h4>
           <h5><i>{{ item.role }}</i></h5>
           <h6 class="date">{{ item.from }} — {{ item.to }}</h6>
-          <p>{{ item.description }}</p>
+          <ul>
+          {% for point in item.description %}
+          <li>{{ point }}</li>
+          {% endfor %}
+          </ul>
         </div>
       </div>
     {% endfor %}

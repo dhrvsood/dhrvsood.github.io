@@ -1,23 +1,27 @@
-- name: HTML5/CSS3
-  percentage: 90
-  color: danger
+- name: TypeScript
+  color: primary
 
-- name: Go
-  percentage: 80
-  color:
+- name: JavaScript
+  color: primary
+
+- name: Scala
+  color: primary
 
 - name: Python
-  percentage: 70
   color: secondary
 
-- name: React
-  percentage: 70
+- name: R
   color: secondary
+
+- name: Java
+  color: success
+
+- name: C++
+  color: success
 
 - name: SQL
-  percentage: 70
-  color: secondary
+  color: danger
 
-- name: MongoDB
-  percentage: 70
-  color: secondary
+- name: PostgreSQL
+  color: danger
+
