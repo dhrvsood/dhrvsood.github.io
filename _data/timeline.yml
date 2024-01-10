@@ -1,4 +1,5 @@
 - org: Alteryx
+  link: https://www.alteryx.com/
   image: https://community.alteryx.com/t5/image/serverpage/image-id/259688iF6C1C4BD0BC11851?v=v2
   role: Software Engineer
   from: June 2022
@@ -13,18 +14,21 @@ management across cross-functional teams within a 100+ member product engineerin
     ]
 
 - org: Teaching + Learning Commons @ UCSD
+  link: https://commons.ucsd.edu/
   image: https://pbs.twimg.com/profile_images/963898615298064384/tDkwg53N_400x400.jpg
   role: Supplemental Instruction Leader
   from: March 2021
   to: June 2022
-  description: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.]
+  description: ['Formulated and led weekly 90-minute discussions to promote a collaborative learning environment for students
+enrolled in introductory statistics, linear algebra, and discrete mathematics courses.',
+               'Designed remote activity-based sessions for 25+ students per week to enhance learning outside of lectures.']
 
-- org: Society and Machine Learning Lab (SMoL)
-  role: Undergraduate Student Researcher
-  from: 2018
-  to: 2019
-  description: [This is a description, This is a second item]
+- org: Advantech
+  link: http://advantech-gs.com/
+  image: assets/img/advantech.png
+  role: Software Engineering Intern
+  from: April 2021
+  to: September 2021
+  description: [
+    Utilized Selenium to write scripts that automate reaching out to Points of Contact for technical military contracts., 
+    Developed Python code to automate the collection of 1000+ industry days.]
