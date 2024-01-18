@@ -13,6 +13,7 @@ open_new_tab        : false                             # Opens external URLs in
 ### Plugins ###
 plugins:
   - jemoji
+  - jekyll-target-blank
 
 
 ### Navbar Settings ###

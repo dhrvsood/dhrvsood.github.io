@@ -1,6 +1,6 @@
 - org: Alteryx
   link: https://www.alteryx.com/
-  image: https://community.alteryx.com/t5/image/serverpage/image-id/259688iF6C1C4BD0BC11851?v=v2
+  image: assets/img/alteryx.png
   role: Software Engineer
   from: June 2022
   to: August 2023
@@ -15,7 +15,7 @@ management across cross-functional teams within a 100+ member product engineerin
 
 - org: Teaching + Learning Commons @ UCSD
   link: https://commons.ucsd.edu/
-  image: https://pbs.twimg.com/profile_images/963898615298064384/tDkwg53N_400x400.jpg
+  image: assets/img/tlc.jpg
   role: Supplemental Instruction Leader
   from: March 2021
   to: June 2022

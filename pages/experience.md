@@ -9,4 +9,3 @@ weight: 2
 <div class="row">
 {% include about/timeline.html %}
 </div>
-### **Volunteering Experience**
