@@ -1,0 +1,27 @@
+- name: TypeScript
+  color: primary
+
+- name: JavaScript
+  color: primary
+
+- name: Scala
+  color: primary
+
+- name: Python
+  color: secondary
+
+- name: R
+  color: secondary
+
+- name: Java
+  color: success
+
+- name: C++
+  color: success
+
+- name: SQL
+  color: danger
+
+- name: PostgreSQL
+  color: danger
+
