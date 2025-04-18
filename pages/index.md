@@ -5,7 +5,7 @@ permalink: /
 weight: 3
 ---
 
-<img src="../assets/img/headshot.jpg" width="200px" class="float-right" style="border-radius: 50%">
+<img src="https://avatars.githubusercontent.com/u/53026542" width="200px" class="float-right" style="border-radius: 50%">
 
 # **Hello!**
 
