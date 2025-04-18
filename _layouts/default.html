@@ -13,7 +13,7 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     // all links that start with http or /
-    const links = document.querySelectorAll("a[href^='http'], a[href^='/']");
+    const links = document.querySelectorAll("a[href^='http']");
     links.forEach(link => {
       if (!link.target) {
         // open link in new tab instead of current 
