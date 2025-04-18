@@ -1,5 +1,5 @@
 # Personal Website
-A portfolio website built in [Jekyll](https://jekyllrb.com/) using the [portfolYOU](https://github.com/yousinix/portfolYOU) template by [yousinx](https://yousinix.github.io/).
+A portfolio website built in [Jekyll](https://jekyllrb.com/) using the [portfolYOU](https://github.com/yousinix/portfolYOU) template by [yousinix](https://yousinix.github.io/).
 
 ## Usage
 To run locally:
