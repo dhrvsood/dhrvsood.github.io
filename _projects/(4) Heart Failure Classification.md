@@ -4,7 +4,6 @@ tools: [Pandas, Matplotlib, sklearn]
 image: /assets/img/clustering/clustering.png
 description: Used principal component analysis (PCA) to classify clinical records into dead or alive events through clustering techniques.
 title: "Analyzing Heart Failure Records Using 2-means Clustering"
-# external_url: https://drive.google.com/file/d/1YbdDA0TEpY9LmehkZ24lcgi0VKnkcRxh/view?usp=sharing
 ---
 # Analyzing Heart Failure Records Using 2-means Clustering
 **Collaborators**: Dhruv Sood, Uposhanto Bhattacharya, Ramzy Oncy-Avila, Ellen Khachatryan \
