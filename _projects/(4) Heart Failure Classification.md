@@ -3,33 +3,37 @@ name: Heart Failure Classification through k-means clustering
 tools: [Pandas, Matplotlib, sklearn]
 image: /assets/img/clustering/clustering.png
 description: Used principal component analysis (PCA) to classify clinical records into dead or alive events through clustering techniques.
+title: "Analyzing Heart Failure Records Using 2-means Clustering"
 # external_url: https://drive.google.com/file/d/1YbdDA0TEpY9LmehkZ24lcgi0VKnkcRxh/view?usp=sharing
 ---
 # Analyzing Heart Failure Records Using 2-means Clustering
-**Collaborators**: Dhruv Sood, Uposhanto Bhattacharya, Ramzy Oncy-Avila, Ellen Khachatryan
+**Collaborators**: Dhruv Sood, Uposhanto Bhattacharya, Ramzy Oncy-Avila, Ellen Khachatryan \
+**Dataset**: [Heart Failure Clinical Records](https://archive.ics.uci.edu/ml/datasets/Heart+failure+clinical+records)
 
 ## Table of Contents
 - [Analyzing Heart Failure Records Using 2-means Clustering](#analyzing-heart-failure-records-using-2-means-clustering)
   - [Table of Contents](#table-of-contents)
-- [Section 1 - Background](#section-1---background)
-- [Section 2 - Methods](#section-2---methods)
-- [Section 3 - Results](#section-3---results)
+  - [Background](#background)
+    - [Variables](#variables)
+    - [Hypothesis](#hypothesis)
+  - [Methods](#methods)
+    - [Why 2-means clustering?](#why-2-means-clustering)
+    - [Visual Comparison using Principal Component Analysis (PCA)](#visual-comparison-using-principal-component-analysis-pca)
+    - [Normalization](#normalization)
+  - [Results](#results)
     - [Clustering in 2 Dimensions](#clustering-in-2-dimensions)
     - [Clustering in 7-Dimensions](#clustering-in-7-dimensions)
     - [Clustering in 12-Dimensions](#clustering-in-12-dimensions)
     - [Calculating accuracy of found clusters](#calculating-accuracy-of-found-clusters)
-- [Section 4 - Discussion](#section-4---discussion)
+  - [Discussion](#discussion)
     - [An epic explanation!](#an-epic-explanation)
     - [Surface Level Results](#surface-level-results)
     - [How did we prove this?](#how-did-we-prove-this)
     - [Key Takeaway](#key-takeaway)
-  - [Limitations \& Future Work](#limitations--future-work)
+  - [Limitations and Future Work](#limitations-and-future-work)
 
-
-# Section 1 - Background
-
-Heart Failure Clinical Records Dataset: https://archive.ics.uci.edu/ml/datasets/Heart+failure+clinical+records
-
+## Background
+### Variables
 The variables within the dataset contains 13 features, which report clinical, body, and lifestyle information:
 
 | Clinical Feature Name | Clinical Feature Description |
@@ -46,24 +50,25 @@ The variables within the dataset contains 13 features, which report clinical, bo
 | serum sodium | level of serum sodium in the blood (mEq/L) | 
 | smoking | if the patient smokes or not (boolean) | 
 | time | follow-up period (days) | 
-| [target] death event | if the patient deceased during the follow-up period (boolean) |
+| **death event** | **if the patient deceased during the follow-up period (boolean)** |
 
 The samples collected have been provided to us with a helpful description from the prior collectors by a table representing rows as patients and the features described as the respective columns.
 
-We hypothesize that there are some features that potentially influence heart rate failure considerably more than other features within the dataset. If this is true, we expect to observe two natural clusters in our data. We believe this can be tested by running a 2-means clustering algorithm, and repeating the process in multiple, higher dimensions.Is our dataset capable of predicting heart rate failure into clusters representing dead and alive by using 2-means clustering?
+### Hypothesis
+We hypothesize that there are some features that potentially influence heart rate failure considerably more than other features within the dataset. If this is true, we expect to observe two natural clusters in our data. We believe this can be tested by running a 2-means clustering algorithm, and repeating the process in multiple, higher dimensions. **Is our dataset capable of predicting heart rate failure into clusters representing dead and alive by using 2-means clustering?**
 
-# Section 2 - Methods
-**Why 2-means clustering?** \
-The Heart Failure dataset contains 299 samples with 13 features; 12 input and 1 output. The output variable “DEATH_EVENT” reports a 1 or 0 respectively for each subject who has passed away or not after the initial data collection. With this binary value representation, we decided to use a 2 k means clustering to try and partition the features from the data into a total of two clusters. We do this to try to make the data points as similar as possible while also keeping these clusters as different (and as far) apart. Each cluster includes a “centroid” that is created by the mean (average) of the data points in that respective cluster that we use to determine the best or most likely state of the data. We wanted to see if correlations can be found by comparing these values from “DEATH_EVENT” to other groups of data.
+## Methods
+### Why 2-means clustering?
+The Heart Failure dataset contains 299 samples with 13 features; 12 input and 1 output. The output variable `DEATH_EVENT` reports a 1 or 0 respectively for each subject who has passed away or not after the initial data collection. With this binary value representation, we decided to use a 2 k means clustering to try and partition the features from the data into a total of two clusters. We do this to try to make the data points as similar as possible while also keeping these clusters as different (and as far) apart. Each cluster includes a “centroid” that is created by the mean (average) of the data points in that respective cluster that we use to determine the best or most likely state of the data. We wanted to see if correlations can be found by comparing these values from `DEATH_EVENT` to other groups of data.
 
-**Visual Comparison using Principal Component Analysis (PCA)** \
+### Visual Comparison using Principal Component Analysis (PCA)
 While we understand that the k means clustering process for working with specific parts of a dataset, we wanted to create scenarios that could potentially better assess the possibility for subjects dying per the features of the dataset.To better clarify this, we wanted to create multiple 2 k means clusterings of multiple features of our dataset by and then comparing the clusterings of these multiple feature clusters. We learned of a helpful method in attempting “Feature Selection” of the dataset, this would help in providing us the most relevant features out of our dataset to first try our clustering algorithm with. We hope to see a strong relationship between `DEATH_EVENT` and these features we select as they should be the more predominant features that influenced `DEATH_EVENT`. With this method we determined that `Ejection Fraction` and `Time` were the first two features we wanted to test and then followed up with being compared with the clusters from 7 Features of the dataset and another cluster of the entire dataset.
 
-**Normalisation** \
+### Normalization
 Each of the variables in our dataset is has different units and ranges in values, with some being continuous values (serum_sodium), discrete values in the hundreds of thousands (platelets) or binary values either having a 1 or 0 (smoking, anemia, high_blood_pressure, etc). As such, to ensure consistency across all our data points and in order to use the k-means algorithm and PCA for visualization effectively, we had to normalize our data, which just subtracts the maximum of each feature from every value, and divides it by the maximum subtracted from the minimum. This ensures that all our points range from 0 to 1 and makes the data scale-free for easy analysis. 
 
 
-# Section 3 - Results
+## Results
 ```python
 import matplotlib.pyplot as plt
 import random
@@ -442,10 +447,9 @@ print("Died", telv_d_p, "%")
     Survived: 47.783251231527096 %
     Died 51.041666666666664 %
     
-
 Using our findings of a vertical line at PC1 = 0 being the dividing line between Cluster 0 and Cluster 1, we decided to calculate how close these are to the actual death event by finding the percentage of points within each dimension's death that are less than 0 (i.e. will be in Cluster 1), and the percentage of points within each dimension's survivors that are greater than 0 (i.e. will be in Cluster 0). While the graph shows that 2-dim has the highest death accuracy percentage at 82.29%, we believe that 7-dim is the most accurate by providing the best balance between death and survivor accuracy (81.25%, 61.58%)
 
-# Section 4 - Discussion
+## Discussion
 
 ### An epic explanation!
 The 12D clustering plot looks bizzare. What could be causing the sub-clustering/dense point colonies? We realized something cool: When we went from 7D to 12D, we added 5 boolean variables (0's or 1's) which tend to dominate the influence of the 7 other continuous variables which are distributed between [0,1]. Upon further analysis, we  realized that the "sub-clusters" follow a linear pattern. In particular, there are five
@@ -468,6 +472,6 @@ We believe that clustering in 12D was "messy" because of the boolean variables. 
 1. The histogram on the left shows that clustering doesn't improve (by much) going from 2D to 7D, and it actually degenerates going when we increase to 12D. 
 2. It would be ideal if this data was able to be clustered very distinctly, but it reveals how ambiguous predicting heart failure can be, even with strong data points. 
 
-## Limitations & Future Work
+## Limitations and Future Work
 
 There were a few limitations we experienced while undertaking this project. One of these were more of a consideration rather than a limitation but we could have added even more different variations with the dimensions of the dataset and those also could have been added and analyzed to see how the different kinds of features resulted differently. Another one of our limitations we faced were introduced after we received the initial feedback for our research proposal, we were told that the values in this dataset are represented in a way that we discovered needed a better algorithm to properly and more accurately predict the heart failure rates given a specific clinical feature as labeled in our Introduction which led us to attempting logistical regression. 
