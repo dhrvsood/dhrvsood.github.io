@@ -1,0 +1,92 @@
+# Programming Languages
+- name: Python
+  color: primary
+
+- name: TypeScript
+  color: primary
+
+- name: JavaScript
+  color: primary
+
+- name: Java
+  color: primary
+
+- name: SQL
+  color: primary
+
+- name: Go
+  color: primary
+
+- name: R
+  color: primary
+  
+- name: C++
+  color: primary
+
+# Web & Frameworks
+- name: React
+  color: secondary
+
+- name: Spring Boot
+  color: secondary
+
+- name: Node.js
+  color: secondary
+
+- name: Express
+  color: secondary
+
+- name: Django
+  color: secondary
+
+- name: Flask
+  color: secondary
+
+# ML/AI
+- name: scikit-learn
+  color: danger
+
+- name: PyTorch
+  color: danger
+
+- name: TensorFlow
+  color: danger
+
+- name: LangChain
+  color: danger
+
+# DevOps & Cloud 
+- name: Docker
+  color: success
+
+- name: Kubernetes
+  color: success
+
+- name: AWS
+  color: success
+
+# Databases
+- name: MySQL
+  color: info
+
+- name: PostgreSQL
+  color: info
+
+- name: MongoDB
+  color: info
+
+- name: ChromaDB
+  color: info
+
+# Methodologies & Tools
+- name: Agile
+  color: warning
+
+- name: Git
+  color: warning
+
+- name: Jenkins
+  color: warning
+
+- name: CI/CD
+  color: warning
