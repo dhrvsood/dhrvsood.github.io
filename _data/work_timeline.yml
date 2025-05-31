@@ -1,0 +1,56 @@
+- org: SkillStorm
+  link: https://www.skillstorm.com/
+  image: assets/img/experience/skillstorm.png
+  role: DevSecOps Software Engineer
+  from: February 2025
+  to: Present
+  description: [
+    'Took full ownership of end-to-end development and deployment of a secure, scalable tax management application as a proof of concept for a federal client.', 
+    'Achieved top ranking in a cohort of 7 engineers for final project based on execution, system design, and functionality.', 
+    'Delivered 8+ technical presentations, earning praise for clarity, structure, and depth from diverse audiences.',
+    'Deployed to AWS ECS via Dockerized Jenkins CI/CD pipelines with load balancers, auto-scaling, and custom security groups.',
+    'Conducted scalability testing with 10k+ mock client records, ensuring high performance under simulated peak traffic.'
+    ]
+
+- org: SourceFuse Technologies
+  link: https://www.sourcefuse.com/
+  image: assets/img/experience/sf.png
+  role: AI/ML Software Engineer
+  from: July 2024
+  to: February 2025
+  description: [
+    'Engineered and optimized LLM prompts for a text-to-SQL system, improving query generation accuracy by ~25%.', 
+    'Integrated EasyOCR into a contract analysis pipeline for Japanese legal documents, reducing processing time by ~30 seconds.', 
+    'Contributed to Python wrapper development for open-source ARC tool, implementing unit tests and remediating three high-risk X-Ray vulnerabilities.'
+    ]
+
+- org: Alteryx
+  link: https://www.alteryx.com/
+  image: assets/img/experience/alteryx.png
+  role: Software Engineer
+  from: June 2022
+  to: August 2023
+  description: [
+    'Developed a proof of concept for a Content Management System for Alteryx AutoML’s education mode using TypeScript, simplifying content updating for 50+ technical writers.', 
+    'Facilitated a seamless Node upgrade process, overseeing changes to 150+ tests and updating 20+ dependencies, significantly increasing application speed.', 
+    'Spearheaded the successful integration of Unleash into an existing React application, streamlining feature flag management across cross-functional teams within a 100+ member product engineering organization.'
+    ]
+
+- org: Teaching + Learning Commons @ UCSD
+  link: https://commons.ucsd.edu/
+  image: assets/img/experience/tlc.jpg
+  role: Supplemental Instruction Leader
+  from: March 2021
+  to: June 2022
+  description: ['Formulated and led weekly 90-minute discussions to promote a collaborative learning environment for students enrolled in introductory statistics, linear algebra, and discrete mathematics courses.',
+               'Designed remote activity-based sessions for 25+ students per week to enhance learning outside of lectures.']
+
+- org: Advantech
+  link: http://advantech-gs.com/
+  image: assets/img/experience/advantech.png
+  role: Software Engineering Intern
+  from: April 2021
+  to: September 2021
+  description: [
+    Utilized Selenium to write scripts that automate reaching out to Points of Contact for technical military contracts., 
+    Developed Python code to automate the collection of 1000+ industry days.]
