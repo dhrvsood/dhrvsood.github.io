@@ -36,15 +36,6 @@
     'Spearheaded the successful integration of Unleash into an existing React application, streamlining feature flag management across cross-functional teams within a 100+ member product engineering organization.'
     ]
 
-- org: Teaching + Learning Commons @ UCSD
-  link: https://commons.ucsd.edu/
-  image: assets/img/experience/tlc.jpg
-  role: Supplemental Instruction Leader
-  from: March 2021
-  to: June 2022
-  description: ['Formulated and led weekly 90-minute discussions to promote a collaborative learning environment for students enrolled in introductory statistics, linear algebra, and discrete mathematics courses.',
-               'Designed remote activity-based sessions for 25+ students per week to enhance learning outside of lectures.']
-
 - org: Advantech
   link: http://advantech-gs.com/
   image: assets/img/experience/advantech.png
@@ -54,3 +45,12 @@
   description: [
     Utilized Selenium to write scripts that automate reaching out to Points of Contact for technical military contracts., 
     Developed Python code to automate the collection of 1000+ industry days.]
+
+- org: Teaching + Learning Commons @ UCSD
+  link: https://commons.ucsd.edu/
+  image: assets/img/experience/tlc.jpg
+  role: Supplemental Instruction Leader
+  from: March 2021
+  to: June 2022
+  description: ['Formulated and led weekly 90-minute discussions to promote a collaborative learning environment for students enrolled in introductory statistics, linear algebra, and discrete mathematics courses.',
+               'Designed remote activity-based sessions for 25+ students per week to enhance learning outside of lectures.']

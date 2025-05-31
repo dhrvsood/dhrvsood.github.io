@@ -1,3 +1,14 @@
+- org: Triton Software Engineering
+  link: https://tritonse.github.io
+  image: assets/img/experience/tse.png
+  role: Developer, Outreach Member
+  from: September 2019
+  to: October 2021
+  description: ['Collaborated in Agile teams of 4–8 to ship production-ready apps for nonprofit clients in San Diego, incorporating iterative feedback and accessibility requirements.',
+                'Worked on the full-stack development of a MERN-based food ordering app for the United Women of East Africa Support Team (UWEAST) and a mobile application for Words Alive empowering family literacy programs in San Diego.',
+               'Mentored 20 high school students in United Women of East Africa Support Team across 4 weeks on hosting personal websites on GitHub Pages.']
+
+
 - org: CS foreach
   link: https://www.csforeach.org/
   image: assets/img/experience/csforeach.png
@@ -9,16 +20,6 @@
     'Conducted engaging remote and in-person review sessions for the AP Computer Science A and Principles exams for 100+ students.',
     'Developed engaging and age-appropriate presentation materials to teach foundational programming concepts in Python and Java across varying levels of prior experience.'
     ]
-
-- org: Triton Software Engineering
-  link: https://tritonse.github.io
-  image: assets/img/experience/tse.png
-  role: Developer, Outreach Member
-  from: September 2019
-  to: October 2021
-  description: ['Collaborated in Agile teams of 4–8 to ship production-ready apps for nonprofit clients in San Diego, incorporating iterative feedback and accessibility requirements.',
-                'Worked on the full-stack development of a MERN-based food ordering app for the United Women of East Africa Support Team (UWEAST) and a mobile application for Words Alive empowering family literacy programs in San Diego.',
-               'Mentored 20 high school students in United Women of East Africa Support Team across 4 weeks on hosting personal websites on GitHub Pages.']
 
 - org: KSDT
   link: https://ksdt.ucsd.edu/
