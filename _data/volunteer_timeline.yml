@@ -1,0 +1,32 @@
+- org: Triton Software Engineering
+  link: https://tritonse.github.io
+  image: assets/img/experience/tse.png
+  role: Developer, Outreach Member
+  from: September 2019
+  to: October 2021
+  description: ['Collaborated in Agile teams of 4–8 to ship production-ready apps for nonprofit clients in San Diego, incorporating iterative feedback and accessibility requirements.',
+                'Worked on the full-stack development of a MERN-based food ordering app for the United Women of East Africa Support Team (UWEAST) and a mobile application for Words Alive empowering family literacy programs in San Diego.',
+               'Mentored 20 high school students in United Women of East Africa Support Team across 4 weeks on hosting personal websites on GitHub Pages.']
+
+
+- org: CS foreach
+  link: https://www.csforeach.org/
+  image: assets/img/experience/csforeach.png
+  role: Director of Curriculum Development
+  from: November 2020
+  to: March 2022
+  description: [
+    'Led a team of 30 undergraduate students to design and deliver computer science lessons plans tailored to middle and high school students from underrepresented communities across San Diego.',
+    'Conducted engaging remote and in-person review sessions for the AP Computer Science A and Principles exams for 100+ students.',
+    'Developed engaging and age-appropriate presentation materials to teach foundational programming concepts in Python and Java across varying levels of prior experience.'
+    ]
+
+- org: KSDT
+  link: https://ksdt.ucsd.edu/
+  image: assets/img/experience/ksdt.png
+  role: Audio Engineering Intern
+  from: April 2020
+  to: April 2022
+  description: [
+    'Supported live sound engineering for studio open mics and course recordings, including sessions for MUS 95JC (Jazz Ensemble)', 
+    'Learned proper studio recording techniques through mic placement, gain staging, and signal routing for different instruments and vocal setups.']
