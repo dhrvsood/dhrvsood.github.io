@@ -1,0 +1,147 @@
+backend:
+  name: github
+  repo: dhrvsood/dhrvsood.github.io
+  branch: master
+  base_url: https://decap-proxy.dhrvsood.workers.dev
+  auth_endpoint: /auth
+
+media_folder: "assets/img"
+public_folder: "/assets/img"
+
+collections:
+  - label: "Projects"
+    name: "projects"
+    folder: "_projects"
+    create: true
+    slug: "{{name | slugify}}"
+    fields:
+      - label: "Project Name"
+        name: "name"
+        widget: "string"
+      - label: "Tools"
+        name: "tools"
+        widget: "list"
+        hint: "List of technologies used"
+      - label: "Cover Image"
+        name: "image"
+        widget: "image"
+        required: false
+      - label: "Description"
+        name: "description"
+        widget: "string"
+      - label: "External URL"
+        name: "external_url"
+        widget: "string"
+        required: false
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        required: false
+
+  - label: "Work Experience"
+    name: "work_experience"
+    files:
+      - label: "Work Timeline"
+        name: "work_timeline"
+        file: "_data/work_timeline.yml"
+        fields:
+          - label: "Jobs"
+            name: "entries"
+            widget: "list"
+            fields:
+              - label: "Organization"
+                name: "org"
+                widget: "string"
+              - label: "Website"
+                name: "link"
+                widget: "string"
+              - label: "Logo Path"
+                name: "image"
+                widget: "string"
+                hint: "e.g. assets/img/experience/company.png"
+              - label: "Role"
+                name: "role"
+                widget: "string"
+              - label: "Start Date"
+                name: "from"
+                widget: "string"
+                hint: "e.g. January 2024"
+              - label: "End Date"
+                name: "to"
+                widget: "string"
+                hint: "e.g. Present"
+              - label: "Bullet Points"
+                name: "description"
+                widget: "list"
+
+  - label: "Volunteer Experience"
+    name: "volunteer_experience"
+    files:
+      - label: "Volunteer Timeline"
+        name: "volunteer_timeline"
+        file: "_data/volunteer_timeline.yml"
+        fields:
+          - label: "Entries"
+            name: "entries"
+            widget: "list"
+            fields:
+              - label: "Organization"
+                name: "org"
+                widget: "string"
+              - label: "Website"
+                name: "link"
+                widget: "string"
+              - label: "Logo Path"
+                name: "image"
+                widget: "string"
+                hint: "e.g. assets/img/experience/org.png"
+              - label: "Role"
+                name: "role"
+                widget: "string"
+              - label: "Start Date"
+                name: "from"
+                widget: "string"
+                hint: "e.g. September 2019"
+              - label: "End Date"
+                name: "to"
+                widget: "string"
+                hint: "e.g. October 2021"
+              - label: "Bullet Points"
+                name: "description"
+                widget: "list"
+
+  - label: "Skills"
+    name: "skills"
+    files:
+      - label: "Skills List"
+        name: "skills_list"
+        file: "_data/skills.yml"
+        fields:
+          - label: "Skills"
+            name: "items"
+            widget: "list"
+            fields:
+              - label: "Skill Name"
+                name: "name"
+                widget: "string"
+              - label: "Badge Color"
+                name: "color"
+                widget: "select"
+                options:
+                  - { label: "Blue (Languages)", value: "primary" }
+                  - { label: "Grey (Frameworks)", value: "secondary" }
+                  - { label: "Red (ML/AI)", value: "danger" }
+                  - { label: "Green (DevOps)", value: "success" }
+                  - { label: "Teal (Databases)", value: "info" }
+                  - { label: "Yellow (Tools)", value: "warning" }
+
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "pages/index.md"
+        fields:
+          - label: "Body"
+            name: "body"
+            widget: "markdown"

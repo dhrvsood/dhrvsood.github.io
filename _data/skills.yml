@@ -1,92 +1,93 @@
-# Programming Languages
-- name: Python
-  color: primary
+items:
+  # Programming Languages
+  - name: Python
+    color: primary
 
-- name: TypeScript
-  color: primary
+  - name: TypeScript
+    color: primary
 
-- name: JavaScript
-  color: primary
+  - name: JavaScript
+    color: primary
 
-- name: Java
-  color: primary
+  - name: Java
+    color: primary
 
-- name: SQL
-  color: primary
+  - name: SQL
+    color: primary
 
-- name: Go
-  color: primary
+  - name: Go
+    color: primary
 
-- name: R
-  color: primary
-  
-- name: C++
-  color: primary
+  - name: R
+    color: primary
 
-# Web & Frameworks
-- name: React
-  color: secondary
+  - name: C++
+    color: primary
 
-- name: Spring Boot
-  color: secondary
+  # Web & Frameworks
+  - name: React
+    color: secondary
 
-- name: Node.js
-  color: secondary
+  - name: Spring Boot
+    color: secondary
 
-- name: Express
-  color: secondary
+  - name: Node.js
+    color: secondary
 
-- name: Django
-  color: secondary
+  - name: Express
+    color: secondary
 
-- name: Flask
-  color: secondary
+  - name: Django
+    color: secondary
 
-# ML/AI
-- name: scikit-learn
-  color: danger
+  - name: Flask
+    color: secondary
 
-- name: PyTorch
-  color: danger
+  # ML/AI
+  - name: scikit-learn
+    color: danger
 
-- name: TensorFlow
-  color: danger
+  - name: PyTorch
+    color: danger
 
-- name: LangChain
-  color: danger
+  - name: TensorFlow
+    color: danger
 
-# DevOps & Cloud 
-- name: Docker
-  color: success
+  - name: LangChain
+    color: danger
 
-- name: Kubernetes
-  color: success
+  # DevOps & Cloud
+  - name: Docker
+    color: success
 
-- name: AWS
-  color: success
+  - name: Kubernetes
+    color: success
 
-# Databases
-- name: MySQL
-  color: info
+  - name: AWS
+    color: success
 
-- name: PostgreSQL
-  color: info
+  # Databases
+  - name: MySQL
+    color: info
 
-- name: MongoDB
-  color: info
+  - name: PostgreSQL
+    color: info
 
-- name: ChromaDB
-  color: info
+  - name: MongoDB
+    color: info
 
-# Methodologies & Tools
-- name: Agile
-  color: warning
+  - name: ChromaDB
+    color: info
 
-- name: Git
-  color: warning
+  # Methodologies & Tools
+  - name: Agile
+    color: warning
 
-- name: Jenkins
-  color: warning
+  - name: Git
+    color: warning
 
-- name: CI/CD
-  color: warning
+  - name: Jenkins
+    color: warning
+
+  - name: CI/CD
+    color: warning

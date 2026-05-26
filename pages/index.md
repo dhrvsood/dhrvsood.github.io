@@ -17,5 +17,5 @@ My professional journey has equipped me with 2 years of valuable experience in f
 One of my favorite aspects of software development is the opportunity to collaborate with people from diverse backgrounds. I love learning new concepts and connecting with people across a range of industries, so feel free to [reach out to me](mailto:dhruvsood27@gmail.com) if you’d like to get in touch!
 
 <div class="row">
-{% include about/skills.html title="Skills" source=site.data.skills %}
+{% include about/skills.html title="Skills" source=site.data.skills.items %}
 </div>
