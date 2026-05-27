@@ -96,4 +96,5 @@ exclude:
   - README.md
   - CONTRIBUTING.md
   - LICENSE
+  - CLAUDE.md
   - "*.log"
